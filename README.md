@@ -1,4 +1,4 @@
-Iquidus Explorer - 1.6.1
+The Bestcoin Blockexplorer
 ================
 
 An open source block explorer written in node.js.
@@ -40,7 +40,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/thebestcoin/thebestcoin-blockexplorer explorer
 
 ### Install node modules
 
