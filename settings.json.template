@@ -87,15 +87,18 @@
   },
 
   // market settings
-  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
+  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, bestcoin
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
-    "exchange": "BTC",
-    "enabled": ["bittrex"],
+    "coin": "BC",
+    "exchange": "USD",
+    "enabled": ["bestcoin"],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
+    "default": "bestcoin",
+    "bestcoin_http_url": "set url here",
+    "bestcoin_http_user": "",
+    "bestcoin_http_password": ""
   },
 
   // richlist/top100 settings
