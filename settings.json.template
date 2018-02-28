@@ -1,101 +1,101 @@
 /*
-This file must be valid JSON. But comments are allowed
+  This file must be valid JSON. But comments are allowed
 
-Please edit settings.json, not settings.json.template
+  Please edit settings.json, not settings.json.template
 */
 {
-// name your instance!
-"title": "IQUIDUS",
+  // name your instance!
+  "title": "IQUIDUS",
 
-"address": "127.0.0.1:3001",
+  "address": "127.0.0.1:3001",
 
-// coin name
-"coin": "Darkcoin",
+  // coin name
+  "coin": "Darkcoin",
 
-// coin symbol
-"symbol": "DRK",
+  // coin symbol
+  "symbol": "DRK",
 
-// logo
-"logo": "/images/logo.png",
+  // logo
+  "logo": "/images/logo.png",
 
-// favicon
-"favicon": "public/favicon.ico",
+  // favicon
+  "favicon": "public/favicon.ico",
 
-// Uses bootswatch themes (http://bootswatch.com/)
-// Valid options:
-//     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
-//     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
-// theme (see /public/themes for available themes)
-"theme": "Cyborg",
+  // Uses bootswatch themes (http://bootswatch.com/)
+  // Valid options:
+  //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
+  //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
+  // theme (see /public/themes for available themes)
+  "theme": "Cyborg",
 
-// port to listen for requests on.
-"port" : 3001,
+  // port to listen for requests on.
+  "port" : 3001,
 
-// database settings (MongoDB)
-"dbsettings": {
-"user": "iquidus",
-"password": "3xp!0reR",
-"database": "explorerdb",
-"address": "localhost",
-"port": 27017
-},
+  // database settings (MongoDB)
+  "dbsettings": {
+    "user": "iquidus",
+    "password": "3xp!0reR",
+    "database": "explorerdb",
+    "address": "localhost",
+    "port": 27017
+  },
 
-//update script settings
-"update_timeout": 10,
-"check_timeout": 250,
+  //update script settings
+  "update_timeout": 10,
+  "check_timeout": 250,
 
-// wallet settings
-"wallet": {
-"host": "localhost",
-"port": 9332,
-"user": "darkcoinrpc",
-"pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
-},
+  // wallet settings
+  "wallet": {
+    "host": "localhost",
+    "port": 9332,
+    "user": "darkcoinrpc",
+    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+  },
 
-// confirmations
-"confirmations": 40,
+  // confirmations
+  "confirmations": 40,
 
-// language settings
-"locale": "locale/en.json",
+  // language settings
+  "locale": "locale/en.json",
 
-// menu settings
-"display": {
-"api": true,
-"markets": true,
-"richlist": true,
-"twitter": true,
-"facebook": false,
-"googleplus": false,
-"search": true,
-"movement": true,
-"network": true
-},
+  // menu settings
+  "display": {
+    "api": true,
+    "markets": true,
+    "richlist": true,
+    "twitter": true,
+    "facebook": false,
+    "googleplus": false,
+    "search": true,
+    "movement": true,
+    "network": true
+  },
 
-// index page (valid options for difficulty are POW, POS or Hybrid)
-"index": {
-"show_hashrate": true,
-"difficulty": "POW",
-"last_txs": 100
-},
+  // index page (valid options for difficulty are POW, POS or Hybrid)
+  "index": {
+    "show_hashrate": true,
+    "difficulty": "POW",
+    "last_txs": 100
+  },
 
-// ensure links on API page are valid
-"api": {
-"blockindex": 1337,
-"blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-"txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-"address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
-},
+  // ensure links on API page are valid
+  "api": {
+    "blockindex": 1337,
+    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
+    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
+    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+  },
 
-// market settings
-//supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, bestcoin
-//default market is loaded by default and determines last price in header
-"markets": {
-"coin": "BC",
-"exchange": "USD",
-"enabled": ["bestcoin"],
-"cryptopia_id": "1658",
-"ccex_key" : "Get-Your-Own-Key",
-"default": "bestcoin",
+  // market settings
+  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, bestcoin
+  //default market is loaded by default and determines last price in header
+  "markets": {
+    "coin": "BC",
+    "exchange": "USD",
+    "enabled": ["bestcoin"],
+    "cryptopia_id": "1658",
+    "ccex_key" : "Get-Your-Own-Key",
+    "default": "bestcoin",
     "bestcoin_http_url": "set url here",
     "bestcoin_http_user": "",
     "bestcoin_http_password": ""
